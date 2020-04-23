@@ -44,7 +44,7 @@ AM15flux = AM15 / (Es*eV)  # number of photon m^-2 eV^-1 s^-1
 class SQlim(object):
     def __init__(self, T=300, EQE_EL=1.0, intensity=1.0):
         """
-        T: temperature in K
+        T: temperature in °K
         EQE_EL: radiative efficiency (EL quantum yield)
         intensity: light concentration, 1.0 = one Sun, 100 mW/cm^2
         """
